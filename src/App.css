@@ -21,7 +21,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(252, 247, 247);
+  margin: 0;
 }
 
 .App-link {
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+
+  /* ////////////////////////edits Rashed/////////////////////////////// */
 }
+div, h1,h2,h3,h4{
+  cursor: pointer;
+  transition: 0.2s;
+}
+div, h1,h2,h3,h4:hover{
+  color: rgb(23, 8, 157);
+  font-weight: bold;
+
+}
+
